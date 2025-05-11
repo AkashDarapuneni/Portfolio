@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event manager </title>
+    <style>
+        body {
+            background-color: #2c3e50;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .box {
+            width: 350px;
+            min-height: 500px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+        
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .box img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 4px solid #3498db;
+        }
+        
+        .box .content {
+            padding: 25px;
+        }
+        
+        .box .title {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        .box .description {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Manager Portfolio Gallery</h1>
+    
+    <div class="container">
+        <!-- Fashion Photography -->
+        <div class="box">
+            <img src="/images/eimg1.jpg" alt="Wedding Planner">
+            <div class="content">
+                <div class="title">Fashion Photography</div>
+                <div class="description">Showcase your latest fashion collections with our professional portfolio template designed for style and elegance.</div>
+            </div>
+        </div>
+        
+        <!-- Wildlife Photography -->
+        <div class="box">
+            <img src="/images/Pho2.jpg" alt="Wildlife Photography">
+            <div class="content">
+                <div class="title">Wildlife Photography</div>
+                <div class="description">Highlight your nature and wildlife captures with this visually stunning portfolio layout.</div>
+            </div>
+        </div>
+        
+        <!-- Illustrator Portfolio -->
+       <div class="box">
+    <img src="/images/pho3.jpg" alt="Wedding Photography Portfolio">
+    <div class="content">
+        <div class="title">Wedding Photography</div>
+        <div class="description">Capture your beautiful moments with our professional wedding photography services. Special 20% off for 2024 bookings.</div>
+        </div>
+    </div>
+</body>
+</html>
